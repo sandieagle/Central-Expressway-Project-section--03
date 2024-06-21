@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Central Expressway Project 3-Home</title>
+  <link rel = "icon" href ="index-images/Picture1.png" type = "image/x-icon">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="index-css/style.css">  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript" src="index-js/first.js"></script>
+</head>
+<body>
+  <div id="laser-pointer"></div>
+  <header>
+    <div class="container2">
+      <a href="index.html" style="text-decoration: none;color:black;">
+        <div class="content">
+            <img src="index-images/images.png" width="75" height="75" alt="Description" id="protected-image-6">
+            <h1>CENTRAL EXPRESSWAY PROJECT</h1>
+            <h2>Section 3<br>Road Development Authority</h2>
+        </div>
+      </a>
+    </div>
+    <div class="audio-player">
+      <button id="play-pause">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path id="play-icon" d="M8 5V19L19 12L8 5Z" fill="currentColor"/>
+            <path id="pause-icon" d="M6 19H10V5H6V19ZM14 5V19H18V5H14Z" fill="currentColor" style="display:none"/>
+        </svg>
+      </button>
+      <img src="index-images/a55a685b8375807667122027d72de120.gif" height="30px" width="35px">
+    </div>
+    <audio id="audio" preload="auto">
+      <source src="index-images/AlexGrohl - Breath of Light.mp3" type="audio/mpeg">Your browser does not support the audio element.
+    </audio>
+    <div class="right-text">
+      <div class="container">
+        <form action="https://www.google.com/search"method="get" class="search-bar">
+          <input type="text" placeholder="search" name="q">
+          <button type="submit"><img src="index-images/pngwing.com.png"></button>
+        </form>
+      </div>
+    </div>
+    <nav id="myTopnav">
+      <ul>
+        <li>
+          <a class="active" href="index.html">HOME</a>
+        </li>
+        <li>
+          <div class="dropdown">
+            <a href="about.html" class="dropbtn">ABOUT US<i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content">
+              <a href="about.html#cephistory">Central Expressway History</a>
+              <a href="about.html#whoweare">Who We are</a>
+              <a href="about.html#ourmission">Mission</a>
+              <a href="about.html#cepobj">Our Objectives</a>
+              <a href="about.html#keypersonnel">Key-Personnel</a>
+            </div>
+          </div> 
+        </li>
+        <li>
+          <div class="dropdown">
+            <a href="vacancies.html" class="dropbtn">PUBLICATIONS<i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content">
+              <a href="vacancies.html#bids">Bids & Ads</a>
+              <a href="vacancies.html#here">Vacancies</a>
+            </div>
+          </div> 
+        </li>
+        <li>
+          <div class="dropdown">
+            <a href="progress.html" class="dropbtn">PROGRESS<i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content">
+              <a href="progress.html#contractors">Our Contractors</a>
+              <a href="progress.html#statical">Statical view of progress</a>
+              <a href="progress.html#drone">Aerial Drone Footage</a>
+            </div>
+          </div> 
+        </li>
+        <li>
+          <div class="dropdown">
+            <a href="newsroom.html" class="dropbtn">GALLERY<i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content">
+              <a href="newsroom.html#photo">Photos</a>
+              <!--<a href="newsroom.html#video">Videos</a>-->
+              <!--<a href="#">Latest News</a>-->
+            </div>
+          </div> 
+        </li>
+        <li>
+          <div class="dropdown">
+            <a href="help_center.html" class="dropbtn">CONTACT US<i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content">
+              <a href="help_center.html#locationmap">Find Us on Map</a>
+              <a href="help_center.html#staffdirect">Staff Directories</a>
+              <a href="help_center.html#contactsection02">Get in Touch</a>
+              <a href="help_center.html#ministy">Our Ministry</a>
+              <a href="help_center.html#headoffice">Road Development Authority</a>
+              <!--<a href="#">Latest News</a>-->
+            </div> 
+        </li>
+        <li>
+          <div class="df">
+            <a href="index.html">HOME&nbsp</a>
+          </div>
+          <div class="icon">
+            <a href="javascript:void(0);"  onclick="myFunctions()">
+              <img src="index-images/PikPng.com_white-bars-png_4251166.png" width="20px" height="20px" style="float:right;">
+            </a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <!-- Additional sections box -->
+    <div id="additional-sections">
+      <p align="left">
+        <a href="about.html"><b>ABOUT US</b></a>
+      </p>
+      <hr>
+      <p align="left">
+        <a href="vacancies.html"><b>PUBLICATIONS</b></a>
+      </p>
+      <hr>
+      <p align="left">
+        <a href="progress.html"><b>PROGRESS</b></a>
+      </p>
+      <hr>
+      <p align="left">
+        <a href="newsroom.html"><b>GALLERY</b></a>
+      </p>
+      <hr>
+      <p align="left">
+        <a href="help_center.html"><b>CONTACT US</b></a>
+      </p>
+    </div>
+  </header>
+  <div class="background"> 
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="index-images/432739383_724408366468502_8969030683177421091_n.jpg" style="width: 100%;height: 500px;border-right: 9px solid white; border-right: 9px solid white;" id="protected-image-1">
+        <div class="text">
+          <div class="transbox1">
+            <div class="w3-container w3-center w3-animate-zoom">
+              Welcome to<br>CEP 3
+            </div>
+          </div>
+          <div class="transbox0">
+            <p>The Section 3 of the Central Expressway (CEP3) commences from <a href="#">Pothuhera</a> and proceeds up to <a href="#">Galagedara</a> via <a href="#">Rambukkana</a>.</p>
+          </div>
+        </div>
+      </div>
+      <div class="mySlides fade">
+        <img src="index-images/360_F_766936153_MD9TTdl7VSbJiqEt9deNRsT42ho8zO13.jpg" style="width: 100%;height: 500px;border-right: 9px solid white; border-right: 9px solid white;">
+        <div class="text">
+          <div class="transbox">
+            <p>Strengthening Our Highway System to Achieve Excellence</p>
+          </div> 
+          <div class="transbox2">
+            <p style="color: black;">Achieve an acceptable level of mobility in the national highway network<br> through maintaining the roads at an acceptable condition..</p>    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="text-align:left">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+  </div>
+  <div class="background_tablet">
+    <img src="index-images/16423020874775.jpg" style="width: 100%;height: 500px;border-right: 9px solid white; border-right: 9px solid white;">
+    <div class="box2"> 
+      <p style="color: black;">Achieve an acceptable level of mobility in the national highway network<br> through maintaining the roads at an acceptable condition..</p>    
+    </div>
+    <div class="box1">CEP 3</div>
+    <div class="box">
+      <p>Strengthening Our Highway System to Achieve Excellence</p>
+    </div> 
+    <div class="box0">
+      <p>The Section 3 of the Central Expressway (CEP3) commences from <a href="#">Pothuhera</a> and proceeds up to <a href="#">Galagedara</a> via <a href="#">Rambukkana</a>.</p>
+    </div>
+  </div>
+  <div class="background_mobile">
+    <img src="index-images/16423020874775.jpg" style="width: 100%;height: 500px; border-right: 9px solid white;">
+    <div class="box">
+      <p>Strengthening Our Highway System to Achieve Excellence</p>
+    </div> 
+    <div class="box0">
+      <p>The Section 3 of the Central Expressway (CEP3) commences from <a href="#">Pothuhera</a> and proceeds up to <a href="#">Galagedara</a> via <a href="#">Rambukkana</a>.</p>
+    </div>
+    <div class="box1"><p>CEP 3</p></div>
+    <div class="box2"> 
+      <p style="color: black;">Achieve an acceptable level of mobility in the national highway network<br> through maintaining the roads at an acceptable condition..</p> 
+    </div>
+  </div>
+  <div class="middle_part">
+    <div class="row">
+      <div class="column">
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="index-images/Default_create_a_one_small_bulding_image_with_white_black_and_31.jpg" alt="location" style="border-radius: 50%;">
+        <h4 style="font-family: Times New Roman;">Office Location</h4>
+        <p style="color:red; font-weight: bold; font-family: Times New Roman;">Central Expressway Project,<br>Section 3,<br>Wing 1 - 3rd Floor,<br>Sethsiripaya,<br>Battaramulla.</p>
+      </div>
+      <div class="column">
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="index-images/Default_create_a_small_construction_area_image_with_white_blac_01.jpg" alt="type" style="border-radius: 50%;">
+        <h4 style="font-family: Times New Roman;">Project type</h4>
+        <p style="color:red; font-weight: bold; font-family: Times New Roman;">under construction road <br>project</p>
+      </div>
+      <div class="column">
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="index-images/Default_create_a_small_highway_roads_image_with_white_black_an_11.jpg" alt="length" style="border-radius: 50%;">
+        <h4 style="font-family: Times New Roman;">Total length</h4>
+        <p style="color:red; font-weight: bold; font-family: Times New Roman;">Approx. 32.45 km</p>
+      </div>
+      <div class="column">
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="index-images/Default_create_a_one_small_bulding_image_with_white_black_and_31.jpg" alt="location" style="border-radius: 50%;">
+        <h4 style="font-family: Times New Roman;">Site Office Location</h4>
+        <p style="color:red; font-weight: bold; font-family: Times New Roman;">Central Expressway Project,<br>Section 3,<br>Sub Office, <br>Lihinigiriya, <br>Pothuhera.</p>
+      </div>
+    </div>
+  </div>
+  <div class="middle_part2">
+    <table>
+      <tr>
+        <td style="background-color:white; font-family: Times New Roman;"><h6><b>Office Location</b></h6>
+          <p style="color:red;text-align: center;font-size: 12px; font-family: Times New Roman;">Central Expressway Project, Section 3,<br>Wing 1 - 3rd Floor,Sethsiripaya, Battaramulla.</p>
+        </td>
+      </tr>
+      <br>
+      <tr>
+        <td style="background-color:#e6ffff;font-family: Times New Roman;" width="500px" height="100px"><h6><b>Project type</b></h6>
+          <p style="color:red;text-align: center;font-size: 12px;font-family: Times New Roman;">under construction road <br>project</p>
+        </td>
+      </tr> 
+      <br>
+      <tr>
+        <td style="background-color:#ffeee6;font-family: Times New Roman;" width="500px" height="auto"><h6><b>Total length</b></h6>
+          <p style="color:red;text-align: center;padding-bottom: 20px;font-size: 12px;font-family: Times New Roman;">Approx. 32.45 km</p>
+        </td>
+      </tr>
+      <br>
+            <tr>
+        <td style="background-color:white;font-family: Times New Roman;"><h6><b>Office Location</b></h6>
+          <p style="color:red;text-align: center;font-size: 12px;font-family: Times New Roman;">Central Expressway Project Section 3, Sub Office,<br>Lihinigiriya, Pothuhera.</p>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+  </div>
+ <br>
+ <br>
+  <div class="project_maps" style="background-image: url('..index-images/pngwing.com (11)copy.png');">
+    <div class="section3_map">
+      <p>Central Expressway Project Section 3 Location Map</p>
+    </div>
+    <table>
+      <tr>
+        <td>
+        <br>
+          <div class="img-zoom-container">
+            <p class="zoom-in">
+              <img id="myimage" src="index-images/Picture1.jpg" alt="map" style="width:700px; height:500px; border:1px solid #E59246;">
+            </p>
+            <div id="myresult" class="img-zoom-result"></div>
+            <div class="preview-map"><img src="index-images/pngwing.com (25).png" width="120px" height="150px"></div>
+          </div>
+        </td>  
+      </tr>
+    </table>
+    <br>
+    <br>
+    <div class="overall_interchange_maps">
+      <br>
+      <div class="section3_map2">
+          <p>Interchanges Maps</p>
+      </div>
+      <br>
+      <table class="responsive-table" style="text-align: center; margin: 0 auto; border-collapse: collapse;">
+        <tr>
+          <td style="padding: 2px 10px 2px 10px;">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img src="index-images/Picture2.jpg" alt="start" style="width:100%;width: 296px;height: 196px;" id="protected-image-2">
+                </div>
+                <div class="flip-box-back">
+                  <h2>Pothuhera IC</h2>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td style="padding: 2px 10px 2px 10px;">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img src="index-images/Picture33.jpg" alt="start" style="width:100%;width: 296px;height: 196px;" id="protected-image-3">
+                </div>
+                <div class="flip-box-back">
+                  <h2>Polgahawela IC</h2>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td style="padding: 2px 10px 2px 10px;">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img src="index-images/Picture4.jpg" alt="start" style="width:100%;width: 296px;height: 196px;" id="protected-image-4">
+                </div>
+                <div class="flip-box-back">
+                  <h2>Rambukkana IC</h2>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td style="padding: 2px 10px 2px 10px;">
+          <br>
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img src="index-images/Picture5.jpg" alt="start" style="width:100%;width: 296px;height: 196px;" id="protected-image-5">
+                </div>
+                <div class="flip-box-back">
+                  <h2>Galagedara IC</h2>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+      <br><br>
+    </div>
+  </div>
+  <div class="maps_responsive">
+    <div class="section3_map">
+      <p>
+        <b>Central Expressway Project Section 3 Location Map</b>
+      </p>
+    </div>
+    <br>
+    <img id="myimage" src="index-images/Picture1.jpg" alt="map" style="width:100%;border:1px solid #E59246;border-radius: 10px;"></p>
+    <br>
+    <br>
+    <div class="section3_map">
+      <p><b>Interchanges Maps</b></p>
+    </div>      
+    <table class="responsive-table">
+      <tr>
+        <td style=" padding: 10px;">
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="index-images/Picture2.jpg" alt="start" style="border-radius: 0px;width: 300px;height: 200px;">
+              </div>
+              <div class="flip-box-back">
+                <h2>Pothuhera IC</h2>
+              </div>
+            </div>
+          </div>
+        </td>
+        <td style="padding: 10px;">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img src="index-images/Picture33.jpg" alt="start" style="border-radius: 0px;width: 300px;height: 200px;">
+                </div>
+                <div class="flip-box-back">
+                  <h2>Polgahawela IC</h2>
+                </div>
+              </div>
+           </div>
+        </td>
+      </tr>
+          <tr>
+            <td style="padding: 10px;">
+              <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <img src="index-images/Picture4.jpg" alt="start" style="border-radius: 0px;width: 300px;height: 200px;">
+                  </div>
+                  <div class="flip-box-back">
+                    <h2>Rambukkana IC</h2>
+                  </div>
+                </div>
+              </div>  
+            </td>
+            <td style="padding: 10px;">
+              <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <img src="index-images/Picture5.jpg" alt="start" style="border-radius: 0px;width: 300px;height: 200px;">
+                  </div>
+                  <div class="flip-box-back">
+                    <h2>Galagedara IC</h2>
+                  </div>
+                </div>
+              </div> 
+            </td>
+          </tr>    
+    </table>          
+  </div>
+  <div class="maps_responsive_mobile">
+    <div class="section3_map">
+      <p><b>Central Expressway Project Section 3 Location Map</b></p>
+    </div>
+    <br>
+    <img id="myimage" src="index-images/Picture1.jpg" alt="map" style="width:100%;border:1px solid #E59246;border-radius: 10px;"></p>
+    <br>
+    <br>
+    <div class="section3_map">
+      <p><b>Interchanges Maps</b></p>
+    </div>
+    <br>
+    <table class="responsive-table">
+      <tr>
+        <td>
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="index-images/Picture2.jpg" alt="start" style="width: 300px;height: 200px;">
+              </div>
+              <div class="flip-box-back">
+                <h2>Pothuhera IC</h2>
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="index-images/Picture33.jpg" alt="start" style="width: 300px;height: 200px;">
+              </div>
+              <div class="flip-box-back">
+                <h2>Polgahawela IC</h2>
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>  
+      <tr>
+        <td>
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="index-images/Picture4.jpg" alt="start" style="width: 300px;height: 200px;">
+              </div>
+              <div class="flip-box-back">
+                <h2>Rambukkana IC</h2>
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>  
+      <tr>
+        <td>
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="index-images/Picture5.jpg" alt="start" style="width: 300px;height: 200px;">
+              </div>
+              <div class="flip-box-back">
+                <h2>Galagedara IC</h2>
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>  
+    </table>          
+  </div>
+  <div class="description">
+    <p style="font-family: Papyrus; font-size: 20px;">Overview of Central Expressway Section III</p>
+    <br>
+    <p class="p1">
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp In the Sri Lanka National Physical Plan 2011-2030, five designated regions (referred to as metro regions) have been identified for concentrated development. Additionally, plans are in place to develop nine metro cities within these regions. The North Central metro region, encompassing Anuradhapura. Trincomalee, Polonnaruwa, and Dambulla metro cities, stands out as the largest among them. It is anticipated that populations residing in fragile areas will gradually migrate to these proposed metro regions in the future. Accordingly, the plan outlines the maintenance and enhancement of the existing road network to meet acceptable standards, while also laying the groundwork 
+        <span id="dots"></span>
+        <span id="more">
+        for connecting metro regions through an expressway network in the future.<br><br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp The Central Expressway, cutting through the western, North western, and Central provinces, serves to bolster regional connectivity, and provide improved access to the central hill region. It aims to alleviate traffic congestion on heavily traversed trunk roads, notably the Colombo-Kandy Road (A001) and Ambepussa – Kurunegala – Trincomalee road (A006).<br><br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Moreover, this expressway project is expected to bolster the tourism industry by offering convenient and rapid access to popular tourist destinations. An economic feasibility study conducted by the University of Moratuwa in 2016 evaluated the entire expressway project. According to the study, the Benefit-Cost Ratio (B/C ration) for the entire expressway stands at 1.41, with an Economic Internal Rate of Return (EIRR) of 9.00% at a discounted rate of 7%
+        </span>
+    </p>
+    <br>  
+    <button class="button" onclick="myFunction()" id="myBtn">Read more</button>
+    <br>
+    <br>
+  </div>
+  <br>
+  <br>
+  <img src="index-images/jag-companies-footer-bg.png" style="width: 100%;height: auto;">
+  <footer>
+    <div class="des_tab_footer">
+      <div class="black">
+        <div id="animatedBox">
+          <table style="width:100%;padding-top: 25px;padding-bottom: 25px;margin-left: 0px; text-align: left;">
+            <tr>
+              <td>
+                <a href="home.html" style="text-decoration: none;">
+                  <p style="font-size: 28px;color: #E59246;width: 150px;"><b>CEP - 3</b></p>
+                </a>
+              </td>
+              <td>About CEP -3</td>
+              <td>Publications</td>
+              <td>Progress</td>
+              <td>Newsroom</td>
+              <td>Help Center</td>
+            </tr>
+            <tr>
+              <td rowspan="3"><p style="font-size: 11px;line-height: 18px;font-size: 13px;">Section 3 of the Central Expressway <br>spans from Pothuhera to Galagedara via <br>Rambukkana.</p></td>
+              <td><a href="about.html#cephistory"><p style="font-size: 11px;line-height: 30px;">Central Expressway History</p></a></td>
+              <td><a href="vacancies.html#"><p style="font-size: 11px;line-height: 30px;">Bids & Ads</p></a></td>
+              <td><a href="vacancies.html#"><p style="font-size: 11px;line-height: 30px;">Our Contractors</p></a></td>
+              <td><a href="newsroom.html#photo"><p style="font-size: 11px;line-height: 30px;">Photos</p></a></td>
+              <td><a href="help_center.html#locationmap"><p style="font-size: 11px;line-height: 30px;">Find Us on Map</p></a></td>
+            </tr>
+            <tr>
+              <td><a href="about.html#whoweare"><p style="font-size: 11px;line-height: 30px;">Who We are</p></a></td>
+              <td><a href="vacancies.html#"><p style="font-size: 11px;line-height: 30px;">Vacancies</p></a></td>
+              <td><a href="about.html#"><p style="font-size: 11px;line-height: 30px;">Statical View of Progress</p></a></td>
+              <td></td>
+              <td><a href="help_center.html#staffdirect"><p style="font-size: 11px;line-height: 30px;">Staff Directories</p></a></td>
+            </tr>
+            <tr>
+              <td><a href="about.html#ourmission"><p style="font-size: 11px;line-height: 30px;">Mission</p></a></td>
+              <td></td>
+              <td><a href="about.html#"><p style="font-size: 11px;line-height: 30px;">Aerial Drone Footage</p></a></td>
+              <td></td>
+              <td><a href="help_center.html#contactsection02"><p style="font-size: 11px;line-height: 30px;">Get in Touch</p></a></td>
+            </tr>
+            <tr>
+              <td rowspan="2"></td>
+              <td><a href="about.html#cepobj"><p style="font-size: 11px;line-height: 30px;">CEP -3 Project Objectives</p></a></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><a href="help_center.html#ministy"><p style="font-size: 11px;line-height: 30px;">Our Ministry</p></a></td>
+            </tr>
+            <tr>
+              <td><a href="about.html#keypersonnel"><p style="font-size: 11px;line-height: 30px;">Key Personnel</p></a></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><a href="help_center.html#headoffice"><p style="font-size: 11px;line-height: 30px;">Road Development Authority</p></a></td>
+            </tr>
+            <tr>
+              <td><img src="index-images/clipart2867726.png" height="20px" width="20px"> &nbsp&nbsp&nbsp<span class="we">011 2877708</span></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td rowspan="8">
+                <p style="font-size:12px;">
+                  <img src="index-images/pngegg.png" height="20px" width="20px"> &nbsp&nbsp&nbsp011 2877708
+                  <br>
+                  <a href="#"><img src="index-images/t3hrg8vkveg4mkqml4rlhv0ajr-79767aba08f7119e475e035ea2d7b71e.png" height="25px" width="25px">&nbsp&nbsprdapdcep3@gmail.com</a>
+                  <br>
+                  <img src="index-images/pngaaa.com-203039.png" height="20px" width="20px">&nbsp&nbsp&nbspCentral Expressway<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspProject,
+                  <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSection 3,
+                  <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspWing 1 - 3rd Floor,
+                  <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSethsiripaya,
+                  <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspBattaramulla.
+                </p>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a href="#"><p style="font-size: 11px;line-height: 30px;"></p></a></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              </tr>
+            <tr>
+              <td><a href="#"><p style="font-size: 11px;line-height: 30px;"></p></a></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr style="color:black;">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr style="color:black;">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr style="color:black;">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr style="color:black;">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr style="color:black;">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr style="color:black;">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="gray">
+        <p>Follow Us<br>
+          <a href="https://www.facebook.com/centralexp3/">
+            <img src="index-images/PikPng.com_facebook-circle-icon-png_5902093.png" height="20px" width="20px">
+          </a>
+        </p>
+        <br>
+        <p align="center" style="font-size:11px;">© 2024 CEP 3 - All Rights Reserved.</p>
+        <p align="center" style="font-size:10px;">
+          <a href="#" style="color:#1CA0EB;">Privacy Policy</a> &nbsp
+          <a href="#" style="color:#1CA0EB;">Terms & Conditions</a>
+        </p>
+      </div>
+    </div>
+    <div class="mob_footer">
+      <div class="black">
+        <div id="animatedBox">
+          <table style="width:100%;padding-top: 25px;padding-bottom: 25px;margin-left: 0px; text-align: left;">
+            <tr>
+              <td>
+                <a href="home.html" style="text-decoration: none;">
+                  <p style="font-size: 20px;color: #E59246;width: 150px;"><b>CEP - 3</b></p>
+                </a>
+              </td>
+              <td style="font-size: 11px;"><b>About CEP -3</b></td>
+              <td style="font-size: 11px;"><b>Vacancies</b></td>
+              <td style="font-size: 11px;"><b>Newsroom</b></td>
+              <td style="font-size: 11px;"><b>Help Center</b></td>
+            </tr>
+            <tr>
+              <td rowspan="3"><p style="font-size: 10px;line-height: 18px;">Section 3 of the Central<br>Expressway spans from<br>Pothuhera to Galagedara<br>via Rambukkana.</p></td>
+              <td><a href="about.html#cephistory"><p style="font-size: 9px;line-height: 30px;">Central Expressway History</p></a></td>
+              <td><a href="vacancies.html#showTextButton"><p style="font-size: 9px;line-height: 30px;">Be a Part</p></a></td>
+              <td><a href="newsroom.html#photo"><p style="font-size: 9px;line-height: 30px;">Photos</p></a></td>
+              <td><a href="help_center.html#locationmap"><p style="font-size: 9px;line-height: 30px;">Find Us on Map</p></a></td>
+            </tr>
+            <tr>
+              <td><a href="about.html#whoweare"><p style="font-size: 9px;line-height: 30px;">Who We are</p></a></td>
+              <td></td>
+              <td></td>
+              <td><a href="help_center.html#staffdirect"><p style="font-size: 9px;line-height: 30px;">Staff Directories</p></a></td>
+            </tr>
+            <tr>
+              <td><a href="about.html#ourmission"><p style="font-size: 9px;line-height: 30px;">Mission</p></a></td>
+              <td></td>
+              <td></td>
+              <td><a href="help_center.html#contactsection02"><p style="font-size: 9px;line-height: 30px;">Get in Touch</p></a></td>
+            </tr>
+            <tr>
+              <td rowspan="2"></td>
+              <td><a href="about.html#cepobj"><p style="font-size: 9px;line-height: 30px;">CEP -3 Project Objectives</p></a></td>
+              <td></td>
+              <td></td>
+              <td><a href="help_center.html#ministy"><p style="font-size: 9px;line-height: 30px;">Our Ministry</p></a></td>
+            </tr>
+            <tr>
+              <td><a href="about.html#keypersonnel"><p style="font-size: 9px;line-height: 30px;">Key Personnel</p></a></td>
+              <td></td>
+              <td></td>
+              <td><a href="help_center.html#headoffice"><p style="font-size: 9px;line-height: 30px;">Road Development Authority</p></a></td>
+            </tr>
+            <tr>
+              <td><img src="index-images/clipart2867726.png" height="20px" width="20px"> &nbsp&nbsp<span class="we">011 2877708</span></td>
+              <td><a href="about.html#contractors"><p style="font-size: 9px;line-height: 30px;">Our Contractors</p></a></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td rowspan="8">
+                <p style="font-size:10px;">
+                  <img src="index-images/pngegg.png" height="20px" width="20px"> &nbsp&nbsp&nbsp011 2877708
+                  <br>
+                  <a href="#"><img src="index-images/t3hrg8vkveg4mkqml4rlhv0ajr-79767aba08f7119e475e035ea2d7b71e.png" height="25px" width="25px">&nbsp&nbsprdapdcep3@gmail.com</a>
+                  <br>
+                  <img src="index-images/pngaaa.com-203039.png" height="20px" width="20px">&nbsp&nbsp&nbspCentral Expressway<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Project,
+                  <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Section 3,
+                  <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Wing 1 - 3rd Floor,
+                  <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Sethsiripaya,
+                  <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Battaramulla.
+                </p>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a href="#"><p style="font-size: 11px;line-height: 30px;"></p></a></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              </tr>
+            <tr>
+              <td><a href="#"><p style="font-size: 11px;line-height: 30px;"></p></a></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr style="color:black;">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr style="color:black;">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr style="color:black;">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr style="color:black;">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr style="color:black;">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr style="color:black;">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="gray">
+        <p>Follow Us<br>
+          <a href="https://www.facebook.com/centralexp3/">
+            <img src="index-images/PikPng.com_facebook-circle-icon-png_5902093.png" height="20px" width="20px">
+          </a>
+        </p>
+        <br>
+        <p align="center" style="font-size:11px;">© 2024 CEP 3 - All Rights Reserved.</p>
+        <p align="center" style="font-size:10px;">
+          <a href="#" style="color:#1CA0EB;">Privacy Policy</a> &nbsp
+          <a href="#" style="color:#1CA0EB;">Terms & Conditions</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript" src="index-js/second.js"></script>
+  <script type="text/javascript" src="index-js/third.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+.alert-box {
+    padding: 20px;
+    background-color: #f44336; /* Red background color */
+    color: white;
+    margin-bottom: 15px;
+    border: 1px solid red;
+    border-radius: 5px;
+    position: fixed;
+    top: 5px;
+    left: 13px;
+    z-index: 1000;
+    display: none; /* Hidden by default */
+}
+
+.alert-box .icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+#laser-pointer {
+    width: 8px;
+    height: 8px;
+    background-color: #333333;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none; /* Prevent the laser pointer from blocking mouse events */
+    transition: transform 0.1s ease-out;
+}
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+@media print {
+  body {
+    display: none;
+  }
+}
+body{
+        background-image: url('../staffdirectories-images/360_F_619508170_yy3L2SRGzVCuEBATL7VYzuUsZEG3kZ4q.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 900px;
+    }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+}
+.button{
+    background-color: black;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */
+    border: none;
+    color: white;
+    padding-left: 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    border-radius: 25px;
+}
+td, th {
+  text-align: left;
+  padding: 8px;
+  border-top: none;
+  color: white;
+  border: 1px solid #bfbfbf;
+}
+.cep3postal{
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: white;
+    border: 1px solid #bfbfbf;
+}
+img{
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.main{
+    top: 200px;
+}
+.text{
+   top: 0;
+   width: 100%;
+   height: 100px;
+   
+}
+.headoffice{
+    margin-left: 30px;
+}
